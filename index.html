@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY-KATALOG</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <div class="bg-[url('/img/wrapper.png')] bg-no-repeat bg-cover pb-[52px]">
+      <header class="pt-[40px]">
+        <div class="container1">
+          <div class="hidden max-[640px]:block">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <a class="text-[16px] font-[600] text-white" href="#">Меню</a>
+              </div>
+              <div class="flex gap-6 items-center">
+                <img class="max-[550px]:hidden" src="./svg/vatsap.svg" alt="" />
+                <img class="max-[550px]:hidden" src="./svg/masseg.svg" alt="" />
+                <img src="./svg/seorch.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center justify-between max-[640px]:w-full">
+            <div class="flex items-center gap-x-[41px] max-[990px]:hidden">
+              <img src="./svg/logo.svg" alt="logo" />
+              <div class="flex items-center gap-5">
+                <img src="./svg/vertikal.svg" alt="ver" />
+                <div class="flex items-center gap-2">
+                  <div class="flex-col items-center gap-y-[8px]">
+                    <img src="./svg/gorizantal.svg" alt="gorizan" />
+
+                    <img
+                      class="pt-[6px]"
+                      src="./svg/gorizantal.svg"
+                      alt="gorizan"
+                    />
+                  </div>
+                  <h3>
+                    <a class="text-[16px] font-[600] text-white" href="#"
+                      >Каталог</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-6 max-[990px]:w-full max-[990px]:justify-between"
+            >
+              <input class="hidden" type="checkbox" id="check" />
+              <div class="menu-bar backdrop-blur-md flex items-center gap-6">
+                <label class="hidden max-[640px]:block" for="check"
+                  ><i
+                    class="fa-solid text-white fa-xmark text-[24px] absolute top-5 left-5"
+                  ></i
+                ></label>
+                <div class="flex items-center gap-[7px]">
+                  <img src="./svg/lokatsa.svg" alt="" />
+                  <a class="text-[16px] font-[600] text-white" href="#"
+                    >г. Москва</a
+                  >
+                </div>
+                <div class="flex items-center gap-[7px]">
+                  <img src="./svg/tel.svg" alt="tel" />
+                  <a class="text-[16px] font-[600] text-white" href="#"
+                    >+7 (495) 151-08-02</a
+                  >
+                </div>
+                <div class="flex items-center gap-[14px]">
+                  <img src="./svg/korzina.svg" alt="korzina" />
+                  <a class="text-[16px] font-[600] text-white" href="#"
+                    >Корзина</a
+                  >
+                  <a
+                    class="p-[4px_6px] bg-OD rounded-[12px] text-[14px] font-[600] text-white"
+                    href="#"
+                    >100</a
+                  >
+                </div>
+              </div>
+              <div class="flex gap-6 items-center max-[640px]:hidden">
+                <img src="./svg/vatsap.svg" alt="" />
+                <img src="./svg/masseg.svg" alt="" />
+                <img src="./svg/seorch.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <hr class="my-[24px] text-white hidden max-[990px]:block" />
+          <div class="hidden max-[990px]:block">
+            <div class="flex items-center justify-between">
+              <img src="./svg/logo.svg" alt="logo" />
+              <div class="flex items-center gap-5">
+                <img
+                  class="max-[310px]:hidden"
+                  src="./svg/vertikal.svg"
+                  alt="ver"
+                />
+                <div class="flex items-center gap-2">
+                  <div class="flex-col items-center gap-y-[8px]">
+                    <img src="./svg/gorizantal.svg" alt="gorizan" />
+
+                    <img
+                      class="pt-[6px]"
+                      src="./svg/gorizantal.svg"
+                      alt="gorizan"
+                    />
+                  </div>
+                  <h3>
+                    <a class="text-[16px] font-[600] text-white" href="#"
+                      >Каталог</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="wrapper mt-[120px] max-[600px]:mt-[50px]">
+        <div class="container1 mb-">
+          <div class="flex-col items-center justify-center text-center">
+            <h1
+              class="text-[44px] font-[600] text-white max-[483px]:text-[25px] border-dashed border-b w-fit"
+            >
+              Крупнейший маркетплейс ЖБИ
+            </h1>
+            <div class="overflow-x-scroll">
+              <div
+                class="pt-[32px] flex items-center gap-12 justify-center max-[895px]:w-[895px] text-center"
+              >
+                <h3
+                  class="text-[16px] font-[600] text-white border-b border-dashed w-fit"
+                >
+                  ЖБИ продукция
+                </h3>
+                <h3
+                  class="text-[16px] font-[600] text-white border-b border-dashed w-fit"
+                >
+                  Дорожные плиты
+                </h3>
+                <h3
+                  class="text-[16px] font-[600] text-white border-b border-dashed w-fit"
+                >
+                  ФБС
+                </h3>
+                <h3
+                  class="text-[16px] font-[600] text-white border-b border-dashed w-fit"
+                >
+                  Плиты перекрытия
+                </h3>
+                <h3
+                  class="text-[16px] font-[600] text-white border-b border-dashed w-fit"
+                >
+                  Сваи
+                </h3>
+                <h3
+                  class="text-[16px] font-[600] text-white border-b border-dashed w-fit"
+                >
+                  ...
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="mt-[72px]">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div
+                    class="bg-white bg-opacity-15 w-[336px] text-center p-[16px_0] max-[640px]:w-full"
+                  >
+                    <h2 class="text-[36px] font-[600] text-white">>12 000</h2>
+                    <p class="text-[16px] font-[400] text-white opacity-20">
+                      Товаров в каталоге
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="bg-white bg-opacity-15 w-[336px] text-center p-[16px_0] max-[640px]:w-full"
+                  >
+                    <h2 class="text-[36px] font-[600] text-white">>200</h2>
+                    <p class="text-[16px] font-[400] text-white opacity-20">
+                      Поставщиков
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="bg-white bg-opacity-15 w-[336px] text-center p-[16px_0] max-[640px]:w-full"
+                  >
+                    <h2 class="text-[36px] font-[600] text-white">>150</h2>
+                    <p class="text-[16px] font-[400] text-white opacity-20">
+                      Перевозчиков
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="bg-white bg-opacity-15 w-[336px] text-center p-[16px_0] max-[640px]:w-full"
+                  >
+                    <h2 class="text-[36px] font-[600] text-white">>30 000</h2>
+                    <p class="text-[16px] font-[400] text-white opacity-20">
+                      Отгрузок в 2021 г.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="bg-white bg-opacity-15 w-[336px] text-center p-[16px_0] max-[640px]:w-full"
+                  >
+                    <h2 class="text-[36px] font-[600] text-white">>12 000</h2>
+                    <p class="text-[16px] font-[400] text-white opacity-20">
+                      Товаров в каталоге
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="p-[18px_20px] block flex-col mt-[80px] m-auto bg-OD text-center rounded-[100%]"
+          >
+            <i class="fa-solid fa-chevron-down text-white"></i>
+          </button>
+
+          <div class="mt-[64px] relative">
+            <div class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div
+                    class="text-[16px] font-[400] text-white border w-fit p-[10px] mx-auto"
+                  >
+                    Дорожное строительство
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="text-[16px] font-[400] text-white border w-fit p-[10px] mx-auto"
+                  >
+                    Частное домостроение
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="text-[16px] font-[400] text-white border w-fit p-[10px] mx-auto"
+                  >
+                    Элементы зданий и
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="text-[16px] font-[400] text-white border w-fit p-[10px] mx-auto"
+                  >
+                    Инженерные коммуникации
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="text-[16px] font-[400] text-white border w-fit p-[10px] mx-auto"
+                  >
+                    Благоустройство
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="text-[16px] font-[400] text-white border w-fit p-[10px] mx-auto"
+                  >
+                    Элементы зданий и
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="text-[16px] font-[400] text-white border w-fit p-[10px] mx-auto"
+                  >
+                    Благоустройство
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="text-[16px] font-[400] text-white border w-fit p-[10px] mx-auto"
+                  >
+                    Частное домостроение
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="text-[16px] font-[400] text-white border w-fit p-[10px] mx-auto"
+                  >
+                    Дорожное строительство
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="text-[16px] font-[400] text-white border w-fit p-[10px] mx-auto"
+                  >
+                    Дорожное строительство
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute top-0 flex items-center justify-between w-full"
+            >
+              <div class="next text-white ml-[-10px]">
+                <i
+                  class="fa-solid fa-chevron-left p-[14px] max-[300px]:p-[8px] rounded-[100%] bg-[#D9D9D9] bg-opacity-10"
+                ></i>
+              </div>
+              <div class="prev text-white mr-[-10px]">
+                <i
+                  class="fa-solid fa-chevron-right p-[14px] max-[300px]:p-[8px] rounded-[100%] bg-[#D9D9D9] bg-opacity-10"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header and wrapper end -->
+
+    <section class="mt-[40px] pb-[40px]">
+      <header class="pt-[40px]">
+        <div class="container1">
+          <div class="hidden max-[640px]:block">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <label for="check"
+                  ><img
+                    class="w-[44px] bg-OD rounded-[20px]"
+                    src="./svg/menu-bars.svg"
+                    alt=""
+                /></label>
+                <a class="text-[16px] font-[600] text-[#000]" href="#">Меню</a>
+              </div>
+              <div class="flex gap-6 items-center">
+                <i class="fa-brands fa-whatsapp max-[550px]:hiddenv"></i>
+                <i class="fa-regular fa-envelope max-[550px]:hidden"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center justify-between max-[640px]:w-full">
+            <div class="flex items-center gap-x-[41px] max-[990px]:hidden">
+              <img src="./svg/logo2.svg" alt="logo" />
+              <div class="flex items-center gap-5">
+                <img src="./svg/vertikal.svg" alt="ver" />
+                <div class="flex items-center gap-2">
+                  <div class="flex-col items-center gap-y-[8px]">
+                    <img src="./svg/gorizantal.svg" alt="gorizan" />
+
+                    <img
+                      class="pt-[6px]"
+                      src="./svg/gorizantal.svg"
+                      alt="gorizan"
+                    />
+                  </div>
+                  <h3>
+                    <a class="text-[16px] font-[600] text-[#000]" href="#"
+                      >Каталог</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-6 max-[990px]:w-full max-[990px]:justify-between"
+            >
+              <input class="hidden" type="checkbox" id="check" />
+              <div class="menu-bar backdrop-blur-md flex items-center gap-6">
+                <label class="hidden max-[640px]:block" for="check"
+                  ><i
+                    class="fa-solid text-[#000] fa-xmark text-[24px] absolute top-5 left-5"
+                  ></i
+                ></label>
+                <div class="flex items-center gap-[7px]">
+                  <img src="./svg/lokatsa.svg" alt="" />
+                  <a class="text-[16px] font-[600] text-[#000]" href="#"
+                    >г. Москва</a
+                  >
+                </div>
+                <div class="flex items-center gap-[7px]">
+                  <img src="./svg/tel.svg" alt="tel" />
+                  <a class="text-[16px] font-[600] text-[#000]" href="#"
+                    >+7 (495) 151-08-02</a
+                  >
+                </div>
+                <div class="flex items-center gap-[14px]">
+                  <img src="./svg/korzina.svg" alt="korzina" />
+                  <a class="text-[16px] font-[600] text-[#000]" href="#"
+                    >Корзина</a
+                  >
+                  <a
+                    class="p-[4px_6px] bg-OD rounded-[12px] text-[14px] font-[600] text-white"
+                    href="#"
+                    >100</a
+                  >
+                </div>
+              </div>
+              <div
+                class="flex gap-6 items-center text-[#000] max-[640px]:hidden"
+              >
+                <i class="fa-brands text-[17px] fa-whatsapp"></i>
+                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+          <hr class="my-[24px] text-[#000] hidden max-[990px]:block" />
+          <div class="hidden max-[990px]:block">
+            <div class="flex items-center justify-between">
+              <img src="./svg/logo.svg" alt="logo" />
+              <div class="flex items-center gap-5">
+                <img
+                  class="max-[310px]:hidden"
+                  src="./svg/vertikal.svg"
+                  alt="ver"
+                />
+                <div class="flex items-center gap-2">
+                  <div class="flex-col items-center gap-y-[8px]">
+                    <img src="./svg/gorizantal.svg" alt="gorizan" />
+
+                    <img
+                      class="pt-[6px]"
+                      src="./svg/gorizantal.svg"
+                      alt="gorizan"
+                    />
+                  </div>
+                  <h3>
+                    <a class="text-[16px] font-[600] text-[#000]" href="#"
+                      >Каталог</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container1">
+        <div
+          class="m-[32px_0_32px_0] grid grid-cols-3 gap-8 max-[750px]:grid-cols-2 max-[420px]:grid-cols-1 max-[420px]:gap-2"
+        >
+          <!-- 1 -->
+          <div class="flex-col gap-2">
+            <h2 class="text-[18px] font-[600] text-OD">Плиты перекрытия</h2>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck max-[420px]:hidden"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 2 -->
+          <div class="flex-col gap-2 max-[420px]:hidden">
+            <h2 class="text-[18px] font-[600] text-OD">Сваи</h2>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 3 -->
+          <div class="flex-col gap-2 max-[420px]:hidden">
+            <h2 class="text-[18px] font-[600] text-OD">Перемычки</h2>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 4 -->
+          <div class="flex-col gap-2">
+            <h2 class="text-[18px] font-[600] text-OD">Прогоны</h2>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck max-[420px]:hidden"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 5 -->
+          <div class="flex-col gap-2 max-[420px]:hidden">
+            <h2 class="text-[18px] font-[600] text-OD">Ригели</h2>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 6 -->
+          <div class="flex-col gap-2 max-[420px]:hidden">
+            <h2 class="text-[18px] font-[600] text-OD">Вентиляционные блоки</h2>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 7-->
+          <div class="flex-col gap-y-2">
+            <h2 class="text-[18px] font-[600] text-OD">Стеновые материалы</h2>
+            <p
+              class="w-fit text-[14px] font-[400] text-bleck max-[420px]:hidden"
+            >
+              Кирпич строительный
+            </p>
+            <p
+              class="w-fit text-[14px] font-[400] text-bleck max-[420px]:hidden"
+            >
+              Панель стеновая
+            </p>
+            <p
+              class="w-fit text-[14px] font-[400] text-bleck max-[420px]:hidden"
+            >
+              Щелевые блоки
+            </p>
+            <p class="text-[14px] font-[400] text-bleck max-[420px]:hidden">
+              Газосиликатные блоки
+            </p>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck max-[420px]:hidden"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 8 -->
+          <div class="flex-col gap-2 max-[420px]:hidden">
+            <h2 class="text-[18px] font-[600] text-OD">Балки стропильные</h2>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 9 -->
+          <div class="flex-col gap-2 max-[420px]:hidden">
+            <h2 class="text-[18px] font-[600] text-OD">Балки подкрановые</h2>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 10 -->
+          <div class="flex-col gap-2">
+            <h2 class="text-[18px] font-[600] text-OD">Фермы</h2>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck max-[420px]:hidden"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 11 -->
+          <div class="flex-col gap-2 max-[420px]:hidden">
+            <h2 class="text-[18px] font-[600] text-OD">Стеновые панели</h2>
+            <p class="text-[14px] font-[400] text-bleck">
+              Стеновые панели по серии 1.432.1-21
+            </p>
+            <p class="text-[14px] font-[400] text-bleck">
+              Диафрагмы жесткости ДК
+            </p>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <!-- 12 -->
+          <div class="flex-col gap-2 max-[420px]:hidden">
+            <h2 class="text-[18px] font-[600] text-OD">Шахты лифтов</h2>
+            <p
+              class="border-b border-dashed w-fit text-[14px] font-[400] text-bleck"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <p
+            class="hidden border-b border-dashed w-fit text-[14px] font-[400] text-bleck max-[420px]:block"
+          >
+            Показать ещё
+          </p>
+        </div>
+      </div>
+      <div
+        class="container1 grid grid-cols-6 gap-0 max-[1277px]:gap-4 max-[1110px]:grid-cols-3 max-[1110px]:gap-6 max-[540px]:grid-cols-1"
+      >
+        <!-- 1 -->
+        <div class="flex items-center gap-2">
+          <img class="w-5 h-5" src="./svg/icon-1.svg" alt="" />
+          <p class="text-[16px] font-[400] text-bleck">Купить ЖБИ в 3 шага</p>
+        </div>
+        <!-- 2 -->
+        <div class="flex items-center gap-2">
+          <img class="w-5 h-5" src="./svg/icon-2.svg" alt="" />
+          <p class="text-[16px] font-[400] text-bleck">Поиск</p>
+        </div>
+        <!-- 3 -->
+        <div class="flex items-center gap-2">
+          <img class="w-5 h-5" src="./svg/icon-3.svg" alt="" />
+          <p class="text-[16px] font-[400] text-bleck">Спецпредложения</p>
+        </div>
+        <!-- 4 -->
+        <div class="flex items-center gap-2">
+          <img class="w-5 h-5" src="./svg/icon-4.svg" alt="" />
+          <p class="text-[16px] font-[400] text-bleck">Уцененные товары</p>
+        </div>
+        <!-- 5 -->
+        <div class="flex items-center gap-2">
+          <img class="w-5 h-5" src="./svg/icon-5.svg" alt="" />
+          <p class="text-[16px] font-[400] text-bleck">Прайс листы</p>
+        </div>
+        <!-- 6 -->
+        <div class="flex items-center gap-2">
+          <img class="w-5 h-5" src="./svg/icon-6.svg" alt="" />
+          <p class="text-[16px] font-[400] text-bleck">Доставка</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    
+  </body>
+</html>
